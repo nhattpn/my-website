@@ -1,77 +1,42 @@
-:root {
-    --superhero: 'Bangers', cursive;
-    --fantasy: 'MedievalSharp', cursive;
-    --space: 'Orbitron', sans-serif;
-    --military: 'Black Ops One', cursive;
-    --romantic: 'La Belle Aurore', cursive;
-    --scary: 'Creepster', cursive;
-    --cowboy: 'Rye', cursive;
-    --regular: sans-serif;
-    --fantasy: 'MedievalSharp', cursive;
-    --font: var(--regular);
-    --sharp: 0;
-    --soft: 10px;
-    --round: 100px;
-    
-    --image: var(--soft);
-    
-    --background: #f5f5f5;
-    --text: #222222;
-    
-    --light: var(--background);
-    --dark: var(--text);
+.myphoto{
+    width: 450px;
+    height: 450px;
+    border-radius: 500px;
+    border: 2px solid violet;
+    overflow: hidden;
+    text-align: center;
+    margin: 50px auto;
 }
-
-
-body, html {
-    margin: 0;
+.myphoto img{
+    width: 450px;
+    height: auto;
+    margin-top: -330px;
+}
+head{
+    text-align: center;
+}
+body{
+    display: block;
+    color: white;    
+    background-image: url("https://media1.giphy.com/media/s0go9ywxjJg4w/giphy.gif?cid=ecf05e471985aff7ubtmvl317kq3h1nvhmjkv93xx4are7qz&ep=v1_gifs_related&rid=giphy.gif&ct=g"); 
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+}
+button{
+    border-radius: 0;
     padding: 10px;
-    background: var(--background);
-    color: var(--text);
-    font-family: var(--font);
 }
-
-img {
-    width: 200px;
-    border-radius: calc(var(--image) * 2);
-    border: 4px solid var(--text);
-    
+input{
+    padding: 10px;
+    width: 300px;
 }
-
-a {
-    color: var(--text);
-}
-
-input {
-    display: block;
-    margin: 20px 0 0;
-    width: 160px;
-    box-sizing: border-box;
-    padding: 4px 8px;
-    border-width: 1px; 
-    border-style: solid;
-    border-color:  var(--text);
-    color: var(--text);
-    background: none;
-    border-radius: var(--image);
-    font-family: var(--font);
-}
-
-::placeholder {
-    color: var(--text);
-}
-
-button {
-    border-radius: var(--image);
-    padding: 5px 10px;
-    border: none;
-    background: var(--text);
-    color: var(--background);
+.sp{
+    border: 1px solid black;
+    padding: 5px;
+    background-color: white;
+    color: black;
     font-weight: bold;
-    box-sizing: border-box;
-    display: block;
-    margin: 8px 0;
-    cursor: pointer;
-    font-family: var(--font);
-    width: 160px;
 }
